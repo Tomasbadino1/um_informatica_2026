@@ -1,5 +1,4 @@
 #Codificador César
-
 def cifrar(texto, n):
     cifrado = []
     for letra in texto:
@@ -33,5 +32,5 @@ def descifrar(texto, n):
             descifrado.append(letra)
     return "".join(descifrado)
 
-resultado = cifrar("Hola mundo", 3)
-#descifrar("def ABC", 3)
+print(cifrar("Hola mundo", 3))
+print(descifrar("def ABC", 3))
